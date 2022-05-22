@@ -4,25 +4,8 @@
     box-sizing: border-box;
 }
 
-#header, #links {
-    background: #782634;
-}
-
-.text-primary {
-    color: #782634 !important;
-}
-
-.hide {
-    display: none;
-}
-
 .brand-logo {
     width: 7%;
-}
-
-.nav-link:hover {
-    background: grey;
-    color: white !important;
 }
 
 .slide-one {
@@ -53,17 +36,11 @@
     min-height: 100vh;
 }
 
-.slide-body {
-    border-left: 5px solid #782634;
-}
-
 .slide-img-one {
     background: url(../img/sliding_one.jpg), no-repeat;
     background-position: center;
     background-size: cover;
     border-radius: 170px;
-    border: 3px solid #782634;
-    box-shadow: 0 0 30px rgb(0 0 0 / 50%);
     width: 19%;
 }
 
@@ -72,8 +49,6 @@
     background-position: center;
     background-size: cover;
     border-radius: 170px;
-    border: 3px solid #782634;
-    box-shadow: 0 0 30px rgb(0 0 0 / 50%);
     width: 23%;
 }
 
@@ -82,8 +57,6 @@
     background-position: center;
     background-size: cover;
     border-radius: 170px;
-    border: 3px solid #782634;
-    box-shadow: 0 0 30px rgb(0 0 0 / 50%);
     width: 15%;
 }
 
@@ -92,25 +65,9 @@
     background-position: center;
     background-size: cover;
     border-radius: 190px;
-    border: 3px solid #782634;
-    box-shadow: 0 0 30px rgb(0 0 0 / 50%);
     width: 22%;
 }
 
-.border-bottom {
-    border-bottom: 5px solid #782634 !important;
-}
 
-.card-border {
-    border: 3px solid #782634;
-}
-
-.btn-danger {
-    background: #782634 !important;
-}
-
-.card-border:hover {
-    box-shadow: #782634 !important;
-}
 
  
