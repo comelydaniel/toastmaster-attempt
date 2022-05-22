@@ -12,60 +12,48 @@
     background: url(../img/slide_one.jpg), no-repeat;
     background-position: center;
     background-size: cover;
-    min-height: 100vh;
 }
 
 .slide-two {
     background: url(../img/slide_two.png), no-repeat;
     background-position: center;
     background-size: cover;
-    min-height: 100vh;
 }
 
 .slide-three {
     background: url(../img/slide_three.jpg), no-repeat;
     background-position: center;
     background-size: cover;
-    min-height: 100vh;
 }
 
 .slide-four {
     background: url(../img/slide_four.png), no-repeat;
     background-position: center;
     background-size: cover;
-    min-height: 100vh;
 }
 
 .slide-img-one {
     background: url(../img/sliding_one.jpg), no-repeat;
     background-position: center;
     background-size: cover;
-    border-radius: 170px;
-    width: 19%;
 }
 
 .slide-img-two {
     background: url(../img/sliding_two.jpg), no-repeat;
     background-position: center;
     background-size: cover;
-    border-radius: 170px;
-    width: 23%;
 }
 
 .slide-img-three {
     background: url(../img/sliding_three.jpg), no-repeat;
     background-position: center;
     background-size: cover;
-    border-radius: 170px;
-    width: 15%;
 }
 
 .slide-img-four {
     background: url(../img/sliding_four.jpg), no-repeat;
     background-position: center;
     background-size: cover;
-    border-radius: 190px;
-    width: 22%;
 }
 
 
