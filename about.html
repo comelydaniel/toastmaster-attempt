@@ -10,53 +10,43 @@
     <title>About Page</title>
 </head>
 <body>
-    <section id="header-section">
-        <nav class="navbar navbar-expand-lg">
-          <div class="container-fluid bg-danger">
-            <div class="brand-logo">
-                <img src="img/toastmasters-logo.png" alt="brand-logo" class="img-fluid">
-            </div>
-            <h5 class="opacity-50 ms-3 text-warning">WHERE LEADERS ARE MADE</h5>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse mynav" id="navbarSupportedContent">
-              <ul class="navbar-nav mb-2 mb-lg-0 ms-auto">
-                <li class="nav-item">
-                  <a class="nav-link text-warning active ms-2 border-end border-white" aria-current="page" href="index.html">Home</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link text-warning border-end border-white" href="about.html">About Us</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link text-warning border-end border-white" href="contact.html">Contact Us</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link text-warning border-end border-white" href="#">Resources</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link text-warning border-end border-white" href="#">Events</a>
-                </li>
-                <li class="nav-item hide">
-                  <a class="nav-link disabled d-none">Disabled</a>
-                </li>
-              </ul>
-              <button class="btn btn-warning ms-3" type="submit">Find a Club</button>
-            </div>
+    <header id="header-section" class="container-fluid">
+      <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container" id="header">
+          <div class="brand-logo">
+            <a class="navbar-brand fw-bold display-1" href="#">Top Speakers</a>
           </div>
-        </nav>
-    </section>
-    <section id="breadcrmbs">
-        <nav aria-label="breadcrumb">
-            <ol class="breadcrumb container">
-              <li class="breadcrumb-item"><a href="index.html" class="text-decoration-none">Home</a></li>
-              <li class="breadcrumb-item active" aria-current="page">About</li>
-            </ol>
-          </nav>
-    </section>
-    <section id="about-intro">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse mynav" id="navbarSupportedContent">
+            <ul class="navbar-nav mb-2 mb-lg-0 ms-auto">
+              <li class="nav-item">
+                <a class="nav-link link-dark" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active link-dark" aria-current="page" href="about.html">About Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link link-dark" href="contact.html">Contact Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link link-dark" href="#">Resources</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link link-dark" href="#">Events</a>
+              </li>
+              <li class="nav-item hide">
+                <a class="nav-link disabled d-none">Disabled</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <section id="about-intro"class="container-fluid">
         <div class="container">
-            <h2 class="border-start border-danger ps-3 fw-bold">ABOUT</h2>
+            <h2 class="border-start ps-3 fw-bold mt-5">ABOUT</h2>
             <div class="row mt-5">
                 <div class="col-lg-7">
                     <img src="img/about_one.jpg" alt=" a collage" class="img-fluid mb-5">
@@ -65,7 +55,7 @@
                     <div>
                         <div class="about-para mb-5">
                             <h3 class="bg-secondary text-white py-3 ps-2 fw-bold mb-3">WHO WE ARE</h3>
-                            <p>Toastmasters International is  a nonprofit educational organization that teaches public speaking and leadership skills through a worldwide network of clubs.</p>
+                            <p>Top Speakers International is  an educational organization that teaches public speaking and leadership skills.</p>
                             <a href="#" class="text-decoration-none">Learn More ></a>
                         </div>
                         <div class="about-para">
@@ -79,11 +69,11 @@
         </div>
     </section>
     <hr>
-    <section id="resources-section">
+    <section id="resources-section" class="container-fluid">
         <div class="container py-5">
             <div class="row">
                 <div class="col-lg-3">
-                    <h2 class="border-start border-danger ps-3 fw-bold mb-5">HELPFUL RESOURCES</h2>
+                    <h2 class="border-start ps-3 fw-bold mb-5">HELPFUL RESOURCES</h2>
                 </div>
                 <div class="col">
                   <div class="row">
@@ -93,7 +83,7 @@
                       </div>
                       <div class="col-lg-4 col-md-6">
                         <a href="#" class="text-decoration-none"><h5>Media</h5></a>
-                        <p>News releases and resources for media professionals and Toastmasters Public Relations Managers.</p>
+                        <p>News releases and resources for media professionals and Top Speakers Public Relations Managers.</p>
                       </div>
                       <div class="col-lg-4 col-md-6">
                         <a href="contact.html" class="text-decoration-none"><h5>Contact Us</h5></a>
@@ -101,15 +91,7 @@
                       </div>
                       <div class="col-lg-4 col-md-6">
                         <a href="#" class="text-decoration-none"><h5>Board of Directors</h5></a>
-                        <p>Learn about roles and responsibilities of those who serve on the Toastmasters International Board of Directors.</p>
-                      </div>
-                      <div class="col-lg-4 col-md-6">
-                        <a href="#" class="text-decoration-none"><h5>Funds</h5></a>
-                        <p>Donations and contributions help support Toastmaster International’s mission and extend the organization’s global reach</p>
-                      </div>
-                      <div class="col-lg-4 col-md-6">
-                        <a href="#" class="text-decoration-none"><h5>World Headquarters</h5></a>
-                        <p>Toastmasters International’s World Headquarters is home to more than 150 dedicated employees.</p>
+                        <p>Learn about roles and responsibilities of those who serve on the Top Speakers International Board of Directors.</p>
                       </div>
                       <div class="col-lg-4 col-md-6">
                         <a href="#" class="text-decoration-none"><h5>CEO Reports</h5></a>
@@ -119,46 +101,45 @@
                         <a href="#" class="text-decoration-none"><h5>Annual Financial Reports</h5></a>
                         <p>The Board of Directors and the CEO control and manage the organization's funds.</p>
                       </div>
-                      <div class="col-lg-4 col-md-6">
-                        <a href="#" class="text-decoration-none"><h5>Meeting Minutes</h5></a>
-                        <p>Meeting minutes are the official record of the events that transpire during Board meetings.</p>
-                      </div>
                   </div>
                 </div>
+            </div>
         </div>
     </section>
-    <section id="links-section" class="container bg-danger">
-        <div id="links" class="ps-3">
-          <ul class="list-unstyled d-flex justify-content-center flex-column flex-lg-row">
-            <li>
-              <a href="#" class="text-decoration-none me-4 text-white border-end border-white pe-4">FAQ</a>
-            </li>
-            <li>
-              <a href="#" class="text-decoration-none me-4 text-white border-end border-white pe-4">Privacy Policy</a>
-            </li>
-            <li>
-              <a href="#" class="text-decoration-none me-4 text-white border-end border-white pe-4">Conditions of Use</a>
-            </li>
-            <li>
-              <a href="#" class="text-decoration-none me-4 text-white border-end border-white pe-4">Copyright</a>
-            </li>
-            <li>
-              <a href="#" class="text-decoration-none me-4 text-white border-end border-white pe-4">Site of Map</a>
-            </li>
-            <li>
-              <a href="#" class="text-decoration-none me-4 text-white border-end border-white pe-4">Media center</a>
-            </li>
-          </ul>
+    <footer class="bg-light container-fluid">
+      <div class="container py-5">
+         <div id="links" class="ps-3">
+         <ul class="list-unstyled d-flex justify-content-around flex-column flex-lg-row">
+           <li>
+             <a href="#" class="text-decoration-none me-4 link-dark border-end pe-4">FAQ</a>
+           </li>
+           <li>
+             <a href="#" class="text-decoration-none me-4 link-dark border-end pe-4">Privacy Policy</a>
+           </li>
+           <li>
+             <a href="#" class="text-decoration-none me-4 link-dark border-end pe-4">Conditions of Use</a>
+           </li>
+           <li>
+             <a href="#" class="text-decoration-none me-4 link-dark border-end pe-4">Copyright</a>
+           </li>
+           <li>
+             <a href="#" class="text-decoration-none me-4 link-dark border-end pe-4">Site of Map</a>
+           </li>
+           <li>
+             <a href="#" class="text-decoration-none me-4 link-dark border-end pe-4">Media center</a>
+           </li>
+         </ul>
+         </div>
+        <div class="d-flex justify-content-between flex-wrap">
+         <p>© 2022 Toastmasters International.  All rights reserved.</p>
+         <div>
+           <a href="#"><i class="bi bi-facebook me-5"></i></a>
+           <a href="#"><i class="bi bi-instagram me-5"></i></a>
+           <a href="#"><i class="bi bi-twitter me-5"></i></a>
+         </div>
         </div>
-      </section>
-      <footer class="d-flex container justify-content-between flex-wrap">
-        <p>© 2022 Toastmasters International.  All rights reserved.</p>
-        <div>
-          <a href="#"><i class="bi bi-facebook me-5"></i></a>
-          <a href="#"><i class="bi bi-instagram me-5"></i></a>
-          <a href="#"><i class="bi bi-twitter me-5"></i></a>
-        </div>
-      </footer>
+      </div>
+    </footer>
     <script src="js/bootstrap.min.js"></script>
 </body>
 </html>
